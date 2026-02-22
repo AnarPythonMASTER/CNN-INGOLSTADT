@@ -1,0 +1,46 @@
+This project is planned by Anar Jafarli and Shahbaz
+NOTE! ⤵
+
+All the Images/Data is taken by Anar Jafarli and Shahbaz!
+
+All the code is written explicitely WITHOUT GPT!(with the guide of Professor Dr. Felix Voigtlaender's google colab notebooks: ➡➡➡➡Click to see ⬅⬅⬅⬅
+
+The project is purely for educational and motivational purposes!
+
+Image classification in Ingolstadt, Germany
+Model used: CNN
+
+Context of the project:
+
+Custom Data Collection
+Preparing the input Data
+Create the architechture of the network
+Train
+Hope for the best
+Brief Information
+We went to Ingolstadt which is located in Bayern, Germany and took multiple images of some buildings near the Catholic University of Eichstaet-Ingolstadt. Our plan is to create and deploy a model/platform which will be able to classify the images/photos taken by your phone such that the true label/name or information of the object in the photo is already predicted by our machine learning model. The categories/objects that this project is intented to be focused on are some famous buildings near the KU, namely, the following buildings:
+
+Georganium
+Entrance door of the Georganium building
+The seminar room(201-203) in the Georganium
+The basement room in Georgianum
+The pink building in front of Georgianum
+The church to the way to mensa from Georgianum
+The kreuztor to the way to the main building of KU
+The main entrance of the KU(x80 bus-stop)
+The main building(hauptbau) of the KU from the wfi building
+The WFI building from the main building of the KU
+The goal and motive of the project comes from the motivation and interest to 'Deep Learning' course taught by Professor Dr. Felix Voigtlaender and Dr. Hannes Matt at Katholische Universität Eichstätt-Ingolstadt.
+
+Custom Data/Image Collection
+We came to Ingolstadt near the MIDS building and took images of the famous buildings which are mentioned above. We approximately took 130 images per category.
+
+We also took into consideration the potential path of people walking nearby these buildings and potential realistic image shootings in these pathes, this is why for each category we have decided to mimic the potential walking person who is willing to scan the building by taking a photo in his/her phone of the interested object/building which he/she wants to get some information about.
+
+Accordingly, we have started taking similar potential photos from these path ways for each category with different angles and distances.
+
+We have in total of 2670 images
+
+The original image dimension is 4864x3648
+The image type is JPG
+21 Categories with some being a subset of one big class(e.g.,'georgianum' 'georgianum 1' 'georgianum 2' 'georgianum 3')
